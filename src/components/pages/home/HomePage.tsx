@@ -30,16 +30,18 @@ const HomePage: React.FC = () => {
   return (
     <Layout className="min-h-screen w-full">
       <Sider
-        width={350} // Kenglikni 400px ga o'rnatamiz
-        collapsedWidth={0} // Collapse qilinganda kengligini 0 ga o'rnatamiz
+        width={350}
+        collapsedWidth={0}
         breakpoint="lg"
-        style={{ background: "#fbfcfc" }}>
+        style={{ background: "#fbfcfc" }}
+        className="hidden lg:block" // `lg`dan kichik ekranlarda yashirish uchun
+      >
         <div>
           <SidebarUser />
         </div>
       </Sider>
       <Layout className="min-h-screen">
-        <Content className="w-full pl-[1%] h-full">
+        <Content className="w-full lg:pl-[1%] h-full p-0">
           <div
             style={{
               padding: 24,
@@ -47,7 +49,7 @@ const HomePage: React.FC = () => {
               background: colorBgContainer,
               borderRadius: borderRadiusLG
             }}
-            className="flex items-center justify-center">
+            className="flex items-center justify-center xs:w-screen xs:h-screen">
             <UserCardBox />
           </div>
         </Content>

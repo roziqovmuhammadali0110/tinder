@@ -20,7 +20,7 @@ const UserCardBox: React.FC = () => (
         />
         <div className="">
           <div className="absolute bottom-20 text-white px-2">
-            <h1 className="font-bold text-[25px]">Shahzoda 25</h1>
+            <h1 className="font-bold text-[25px] pb-3">Shahzoda 25</h1>
             <div className="gap-2 flex items-center justify-center font-medium">
               <div className="gap-2 flex items-center justify-center flex-wrap font-medium">
                 <code className="bg-slate-700 px-2 rounded-md">Yoga</code>
@@ -40,29 +40,29 @@ const UserCardBox: React.FC = () => (
           </div>
         </div>
         <div className="flex items-center justify-between p-2">
-          <div className="w-[50px] h-[50px] rounded-[50%] flex items-center justify-center bg-slate-100 cursor-pointer">
+          <div className="w-[45px] h-[45px] rounded-[50%] flex items-center justify-center bg-slate-100 cursor-pointer">
             <MdOutlineSettingsBackupRestore
-              style={{ width: "24px", height: "24px", fontWeight: "bold" }}
+              style={{ width: "22px", height: "22px", fontWeight: "bold" }}
             />
           </div>
-          <div className="w-[50px] h-[50px] rounded-[50%] flex items-center justify-center bg-slate-100 cursor-pointer">
+          <div className="w-[45px] h-[45px] rounded-[50%] flex items-center justify-center bg-slate-100 cursor-pointer">
             <IoMdClose
-              style={{ width: "24px", height: "24px", fontWeight: "bold" }}
+              style={{ width: "22px", height: "22px", fontWeight: "bold" }}
             />
           </div>
-          <div className="w-[50px] h-[50px] rounded-[50%] flex items-center justify-center bg-slate-100 cursor-pointer">
+          <div className="w-[45px] h-[45px] rounded-[50%] flex items-center justify-center bg-slate-100 cursor-pointer">
             <FaRegStar
-              style={{ width: "24px", height: "24px", fontWeight: "bold" }}
+              style={{ width: "22px", height: "22px", fontWeight: "bold" }}
             />
           </div>
-          <div className="w-[50px] h-[50px] rounded-[50%] flex items-center justify-center bg-slate-100 cursor-pointer">
+          <div className="w-[45px] h-[45px] rounded-[50%] flex items-center justify-center bg-slate-100 cursor-pointer">
             <FcLikePlaceholder
-              style={{ width: "24px", height: "24px", fontWeight: "bold" }}
+              style={{ width: "22px", height: "22px", fontWeight: "bold" }}
             />
           </div>
-          <div className="w-[50px] h-[50px] rounded-[50%] flex items-center justify-center bg-slate-100 cursor-pointer">
+          <div className="w-[45px] h-[45px] rounded-[50%] flex items-center justify-center bg-slate-100 cursor-pointer">
             <BsLightningCharge
-              style={{ width: "24px", height: "24px", fontWeight: "bold" }}
+              style={{ width: "22px", height: "22px", fontWeight: "bold" }}
             />
           </div>
         </div>
