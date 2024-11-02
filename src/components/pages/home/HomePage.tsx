@@ -28,33 +28,32 @@ const HomePage: React.FC = () => {
     theme.useToken();
 
   return (
-    <Layout className="min-h-screen w-full">
+    <div className="min-h-screen w-full flex items-center">
       <Sider
-        width={350}
+        width={"22%"}
         collapsedWidth={0}
-        breakpoint="lg"
+        breakpoint="md"
         style={{ background: "#fbfcfc" }}
-        className="hidden lg:block" // `lg`dan kichik ekranlarda yashirish uchun
+        className=" hidden md:block" // `lg`dan kichik ekranlarda yashirish uchun
       >
         <div>
           <SidebarUser />
         </div>
       </Sider>
-      <Layout className="min-h-screen">
+      <div className="w-[100%]">
         <Content className="w-full lg:pl-[1%] h-full p-0">
           <div
             style={{
-              padding: 24,
               minHeight: "100%",
               background: colorBgContainer,
               borderRadius: borderRadiusLG
             }}
-            className="flex items-center justify-center xs:w-screen xs:h-screen">
+            className="flex items-center justify-center">
             <UserCardBox />
           </div>
         </Content>
-      </Layout>
-    </Layout>
+      </div>
+    </div>
   );
 };
 
