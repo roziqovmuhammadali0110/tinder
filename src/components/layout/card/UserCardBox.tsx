@@ -9,13 +9,14 @@ import { BsLightningCharge } from "react-icons/bs";
 
 const UserCardBox: React.FC = () => (
   <Card
-    style={{ maxWidth: 380, border: "none" }} // Borderni olib tashlaymiz
+    // style={{ maxWidth: 380, border: "none" }} // Borderni olib tashlaymiz
     bodyStyle={{ padding: 0 }} // Paddingni 0 qilib o'zgartiramiz
+    className="max-w-[380px] border-none xs:w-[100%] xs:h-min-screen sm:max-w-[380px]"
     cover={
       <div className="relative">
         <img
           alt="example"
-          src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png"
+          src="https://cdn1.img.sputniknews.uz/img/1071/34/10713417_198:-1:887:758_1920x0_80_0_0_09ad57742306462b4874337320579d56.jpg"
           className="rounded-lg"
         />
         <div className="">
